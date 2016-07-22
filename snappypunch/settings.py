@@ -117,7 +117,7 @@ USE_TZ = True
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
-    './social/template/assets/',
+    '/home/snappypunch/Documents/snappypunch/snappypunch/social/templates/assets/',
 ]
 
 # Static files (CSS, JavaScript, Images)
