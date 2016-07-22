@@ -7,9 +7,9 @@
     <meta name="description" content="">
     <meta name="author" content="">
     {% load staticfiles %}
-    <link rel="shortcut icon" href="assets/img/favicon.png">
+    <link rel="shortcut icon" href={% static "img/favicon.png" %}>
 
-    <title>FLATTY - Free Bootstrap 3 Landing Page</title>
+    <title>HiringSolvedDemo</title>
 
     <!-- Bootstrap core CSS -->
 <!--    <link href="assets/css/bootstrap.css" -->
@@ -54,8 +54,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6">
-					<h1>Make your landing page<br/>
-					look really good.</h1>
+					<h1>Python-Django App that Analyzes Social Data.</h1>
+          <h2>Enter Twitter Handle.</h2>
 					<form class="form-inline" role="form">
 					  <div class="form-group">
 					    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your email address">
@@ -225,6 +225,6 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src={% static "js/bootstrap.min.js" %}></script>
   </body>
 </html>
